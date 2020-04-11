@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Life</title>
+</head>
+<body>
+<header id="header">
+    <h1>Photo Life</h1>
+    <h2>Share your life here!</h2>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="browse.html">Browse</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li>
+            <h3>My Account</h3>
+            <ul>
+                <li><a href="photo.html">My Photos</a></li>
+                <li><a href="favor.html">My Favors</a></li>
+                <li><a href="upload.html">Upload</a></li>
+                <li><a href="../index.html">Login</a></li>
+            </ul>
+        </li>
+    </ul>
+</header>
+<main>
+    <form method="post" action="#">
+        <fieldset>
+            <legend>Upload New Picture</legend>
+            <div class="uploadPic">
+                <img id="PicFromUser" src=""/>
+                <p id="placeholder">No Picture Uploaded</p>
+            </div>
+            <div class="wrap">
+                <span>UPLOAD</span>
+                <input type="file" name="photoUpload" id="file">
+            </div>
+            <label id="uploadPicTitle">Picture Title: <input type="text" name="UploadPhotoTitle"></label>
+            <label id="uploadDep">Description: <textarea name="UploadPhotoDescription"></textarea></label>
+            <label id="uploadCountry">Country: <input type="text" name="UploadPhotoCountry"></label>
+            <label id="uploadCity">City: <input type="text" name="UploadPhotoCity"></label>
+            <input type="button" value="SUBMIT" name="UploadSubmit" onclick="window.location.href='MyPhotos.html';alert('It has been uploaded');">
+        </fieldset>
+    </form>
+</main>
+<footer>
+    <div>BeardBear02 版权所有,保留一切权利</div>
+    <div>联系我们 19302010014@fudan.edu.cn</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Life</title>
+    <link href ="../css/reset.css" rel="stylesheet">
+</head>
+<body>
+<header id="header">
+    <h1>Photo Life</h1>
+    <h2>Share your life here!</h2>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="browse.html">Browse</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li>
+            <h3>My Account</h3>
+            <ul>
+                <li><a href="photo.html">My Photos</a></li>
+                <li><a href="favor.html">My Favors</a></li>
+                <li><a href="upload.html">Upload</a></li>
+                <li><a href="../index.html">Login</a></li>
+            </ul>
+        </li>
+    </ul>
+</header>
+<main>
+    <aside>
+        <div id="FilterSearch">
+            <form>
+                <h2>Filter</h2>
+                <input type="text" name="filter"><input type="submit" name="submit" value="Filter" onclick="alert('filtered')">
+            </form>
+        </div>
+        <div id="HotContent">
+            <h2>Hot Content</h2>
+            <ul>
+                <li><a href="" onclick="alert('filtered')">Scenery</a></li>
+                <li><a href="" onclick="alert('filtered')">City</a></li>
+                <li><a href="" onclick="alert('filtered')">People</a></li>
+                <li><a href="" onclick="alert('filtered')">Animal</a></li>
+                <li><a href="" onclick="alert('filtered')">Building</a></li>
+                <li><a href="" onclick="alert('filtered')">Wonder</a></li>
+            </ul>
+        </div>
+        <div id="HotCountry">
+            <h2>Hot Countries</h2>
+            <ul>
+                <li><a href="" onclick="alert('filtered')">China</a></li>
+                <li><a href="" onclick="alert('filtered')">Italy</a></li>
+                <li><a href="" onclick="alert('filtered')">Japan</a></li>
+                <li><a href="" onclick="alert('filtered')">America</a></li>
+            </ul>
+        </div>
+    </aside>
+    <div>
+        <form>
+            <fieldset>
+                <legend>filter</legend>
+                    <select name="Content">
+                        <option value="default" selected>filter by content</option>
+                        <option value="Scenery">Scenery</option>
+                        <option value="City">City</option>
+                        <option value="People">People</option>
+                        <option value="Animal">Animal</option>
+                        <option value="Building">Building</option>
+                        <option value="Wonder">Wonder</option>
+                    </select>
+                    <select name="Countries" id="Countries" onchange="setCity(this, this.form.Cities)">
+                        <option value="default" selected>filter by countries</option>
+                        <option value="China">China</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Japan">Japan</option>
+                        <option value="America">America</option>
+                    </select>
+                    <select name="Cities" id="Cities">
+                        <option value="default" selected>-Cities-</option>
+                    </select>
+                    <input type="submit" name="filter" value="FILTER" onclick="alert('Filter Done')">
+
+            </fieldset>
+        </form>
+        <table>
+            <tr>
+                <td><a href="info.html"><img src="../images/normal/medium/222222.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/222223.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/5855774224.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/5855752464.jpg"></a></td>
+            </tr>
+            <tr>
+                <td><a href="info.html"><img src="../images/normal/medium/5855729828.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/5855221959.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/5855213165.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/5855209453.jpg"></a></td>
+            </tr>
+            <tr>
+                <td><a href="info.html"><img src="../images/normal/medium/5855191275.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/5857298322.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/6114850721.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/6114881215.jpg"></a></td>
+            </tr>
+            <tr>
+                <td><a href="info.html"><img src="../images/normal/medium/6114960821.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/6115548152.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/6115603234.jpg"></a></td>
+                <td><a href="info.html"><img src="../images/normal/medium/6119127716.jpg"></a></td>
+            </tr>
+        </table>
+    </div>
+</main>
+<footer>
+    <div>BeardBear02 版权所有,保留一切权利</div>
+    <div>联系我们 19302010014@fudan.edu.cn</div>
+</footer>
+</body>
+</html>
