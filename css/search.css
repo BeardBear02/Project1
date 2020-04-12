@@ -1,34 +1,64 @@
+#search{
+    width: 80%;
+    margin: auto;
+    border: solid 1px rgba(139, 0, 0, 0.79);
+    border-radius: 15px;
+    background-color: rgba(211, 211, 211, 0.34);
+}
+#search legend{
+    font-family: "Ink Free",sans-serif;
+    font-size: 2.4rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+#search input div{
+    font-family: "Ink Free",sans-serif;
+    font-size: 1.5rem;
+}
+#search input[type="text"]{
+    width: 40%;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+#search input[type="submit"]{
+    width: 15%;
+    background-color: bisque;
+    border-radius:10px;
+    font-size:1.5rem;
+    font-family: "Comic Sans MS",sans-serif;
+    margin-bottom: 2%;
+}
 main section{
     padding-top: 1%;
     padding-bottom: 1%;
 }
 main section figure{
-    width: 70%;
-    height: 300px;
+    width: 80%;
+    height: 400px;
+    background-color: rgba(211, 211, 211, 0.47);
     margin: auto;
-    border: solid 1px deeppink;
+    border: solid 1px rgba(139, 0, 0, 0.61);
+    border-radius: 15px;
     margin-top: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
 }
-main section figure a {
-    padding-left: 2%;
-    vertical-align: top;
-    width: 40%;
-}
+
 main section figure img{
-    max-width:220px;
-    max-height: 220px;
+    width:300px;
+    height: 300px;
     overflow: hidden;
 }
 main section figure figcaption{
-    vertical-align: top;
-    width: 50%;
     overflow:hidden;
     display:-webkit-box;
     -webkit-line-clamp:1;
     -webkit-box-orient: vertical;
+    font-size: 2rem;
+}
+main section figure figcaption h3{
+    font-size: 3rem;
+    font-family: "Ink Free",sans-serif;
 }
 main>section>figure>a,main>section>figure>figcaption{
-     display: inline-block;
+     display: inline;
  }

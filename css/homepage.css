@@ -9,6 +9,7 @@ body{
     width:80%;
     text-align: center;
     padding: 0;
+    margin-bottom: 0;
 }
 main{
     width: 90%;
@@ -21,11 +22,11 @@ main{
     border-radius: 20px;
 }
 header{
+    width: 100%;
     height:18%;
     background-color: bisque;
     font-weight: bold;
     padding-bottom: 2%;
-
 }
 header h1{
     text-align: left;
@@ -40,35 +41,44 @@ header h2{
     padding-right: 40%;
     font-family: "Ink Free",sans-serif;
     font-size: 3rem;
-
 }
-header ul{
-    font-size: 2.2rem;
-    font-family: Ebrima, sans-serif;
+header ul,a{
+    font-size: 2rem;
+    font-family: Georgia, sans-serif;
+    color: rgba(219, 112, 147, 0.91);
+}
+#current{
+    color: rgba(100, 149, 237, 0.91);
+    font-size: 2.1rem;
 }
 header ul img{
     width: 30px;
 }
 header ul.ulheader{
+    width: 100%;
     text-align: left;
-    padding-left: 15%;
+    padding-left: 5%;
 }
 header ul.ulheader li{
     display:inline-block;
-    padding-right: 5%;
+    padding-right: 2%;
 }
-header ul.ulheader li h3{
-
+header ul.ulheader a:hover{
+    color: rgba(255, 66, 0, 0.64);
+    font-size: 2.1rem;
+}
+header li.liaccount{
     text-align: right;
-    padding-right: 5%;
-}
-header ul.ulaccount{
-    position: absolute;
-    padding-bottom: 10%;
-    padding-left: 5%;
 }
 header ul.ulaccount li{
     display: none;
+}
+header ul.ulaccount h3{
+    text-align: right;/*不知道这里为什么一行放不下，怎么调宽度都不行，也没有占满header。最后只能调字体大小解决*/
+}
+header ul.ulaccount:hover{
+    margin-bottom: 2%;/*位置跳动解决不了啊*/
+    position: absolute;
 }
 header ul.ulaccount:hover li{
     text-align: left;
@@ -80,7 +90,6 @@ header ul.ulaccount:hover li{
     margin-bottom: 1%;
     border: solid #d12376;
     background-color: rgba(245, 245, 245, 0.57);
-    vertical-align: bottom;
 }
 aside.asidebutton {
     float:right;

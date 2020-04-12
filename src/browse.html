@@ -14,7 +14,7 @@
     <h2>Share your life here!</h2>
     <ul class="ulheader">
         <li><a href="home.html"><img src="../images/icons/home.png">Home</a></li>
-        <li><a href="browse.html"><img src="../images/icons/browse2.png">Browse</a></li>
+        <li><a href="browse.html" id="current"><img src="../images/icons/browse2.png">Browse</a></li>
         <li><a href="search.html"><img src="../images/icons/search.png">Search</a></li>
         <li>
             <ul class="ulaccount">
@@ -34,28 +34,28 @@
             <fieldset>
                 <form>
                     <legend>Filter</legend>
-                    <input type="text" name="filter"><input type="submit" name="submit" value="Filter" onclick="alert('filtered')">
+                    <input type="text" name="filter"><input type="submit" name="submit" value="Filter" onclick="alert('filter done')">
                 </form>
             </fieldset>
         </div>
-        <div id="HotContent">
-            <h2>Hot Content</h2>
+        <div id="hotcontent">
+            <h3>Hot Content</h3>
             <ul>
-                <li><a href="" onclick="alert('filtered')">Scenery</a></li>
-                <li><a href="" onclick="alert('filtered')">City</a></li>
-                <li><a href="" onclick="alert('filtered')">People</a></li>
-                <li><a href="" onclick="alert('filtered')">Animal</a></li>
-                <li><a href="" onclick="alert('filtered')">Building</a></li>
-                <li><a href="" onclick="alert('filtered')">Wonder</a></li>
+                <li><a onclick="alert('filter done')">Scenery</a></li>
+                <li><a onclick="alert('filter done')">City</a></li>
+                <li><a onclick="alert('filter done')">People</a></li>
+                <li><a onclick="alert('filter done')">Animal</a></li>
+                <li><a onclick="alert('filter done')">Building</a></li>
+                <li><a onclick="alert('filter done')">Wonder</a></li>
             </ul>
         </div>
-        <div id="HotCountry">
-            <h2>Hot Countries</h2>
+        <div id="hotcountry">
+            <h3>Hot Countries</h3>
             <ul>
-                <li><a href="" onclick="alert('filtered')">China</a></li>
-                <li><a href="" onclick="alert('filtered')">Italy</a></li>
-                <li><a href="" onclick="alert('filtered')">Japan</a></li>
-                <li><a href="" onclick="alert('filtered')">America</a></li>
+                <li><a onclick="alert('filter done')">China</a></li>
+                <li><a onclick="alert('filter done')">Italy</a></li>
+                <li><a onclick="alert('filter done')">Japan</a></li>
+                <li><a onclick="alert('filter done')">America</a></li>
             </ul>
         </div>
     </aside>
@@ -82,8 +82,7 @@
                     <select name="Cities" id="Cities">
                         <option value="default" selected>-Cities-</option>
                     </select>
-                    <input type="submit" name="filter" value="FILTER" onclick="alert('Filter Done')">
-
+                    <input type="submit" name="filter" value="FILTER" onclick="alert('filter done')">
             </fieldset>
         </form>
         <section>

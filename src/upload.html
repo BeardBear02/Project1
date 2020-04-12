@@ -6,7 +6,6 @@
     <link href ="../css/reset.css" rel="stylesheet">
     <link href ="../css/homepage.css" rel="stylesheet">
     <link href ="../css/upload.css" rel="stylesheet">
-    <link href="../JavaScript/upload.js" rel="script">
 </head>
 <body>
 <header id="header">
@@ -21,7 +20,7 @@
                 <h3>My Account</h3>
                 <li><a href="photo.html"><img src="../images/icons/photo.png">My Photos</a></li>
                 <li><a href="favor.html"><img src="../images/icons/favor.png">My Favors</a></li>
-                <li><a href="upload.html"><img src="../images/icons/upload2.png">Upload</a></li>
+                <li><a href="upload.html" id="current"><img src="../images/icons/upload2.png">Upload</a></li>
                 <li><a href="../index.html"><img src="../images/icons/login.png">Login</a></li>
             </ul>
         </li>
@@ -34,16 +33,14 @@
             <legend>Upload New Picture</legend>
             <div class="uploadPic">
                 <img id="PicFromUser" src=""/>
-                <p id="placeholder">No Picture Uploaded</p>
             </div>
-            <div class="wrap">
-                <span>UPLOAD</span>
+            <div>
                 <input type="file" name="photoUpload" id="file">
             </div>
-            <label id="uploadPicTitle">Picture Title: <input type="text" name="UploadPhotoTitle"></label>
-            <label id="uploadDep">Description: <textarea name="UploadPhotoDescription"></textarea></label>
-            <label id="uploadCountry">Country: <input type="text" name="UploadPhotoCountry"></label>
-            <label id="uploadCity">City: <input type="text" name="UploadPhotoCity"></label>
+            <label>Picture Title: <input type="text" name="UploadPhotoTitle"></label>
+            <label>Description: <textarea name="UploadPhotoDescription"></textarea></label>
+            <label>Country: <input type="text" name="UploadPhotoCountry"></label>
+            <label>City: <input type="text" name="UploadPhotoCity"></label>
             <input type="button" value="SUBMIT" name="UploadSubmit" onclick="window.location.href='MyPhotos.html';alert('It has been uploaded');">
         </fieldset>
     </form>

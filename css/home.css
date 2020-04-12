@@ -2,19 +2,26 @@ main figure.mainpic img{
     width: 80%;
     padding-top: 2%;
 }
+main section.homepic {
+    padding: 2%;
+}
 main section.homepic table{
     width: 80%;
     margin: auto;
-
 }
 main section.homepic figure{
     width: 90%;
     margin: auto;
+    margin-bottom: 4%;
     border: bisque 1px solid;
+    border-radius: 10px;
+    background-color: rgba(211, 211, 211, 0.29);
+
 }
 main section.homepic img{
-    width:100px;
-    height: 100px;
+    padding-top: 2%;
+    width:150px;
+    height: 150px;
     overflow:hidden;
 }
 main section.homepic figcaption{
@@ -22,4 +29,12 @@ main section.homepic figcaption{
     display:-webkit-box;
     -webkit-line-clamp:2;
     -webkit-box-orient: vertical;
+    font-family: Georgia,sans-serif;
+    font-size: 1rem;
+    color: rgba(100, 149, 237, 0.91);
+}
+main section.homepic figcaption h4{
+    font-size: 1.5rem;
+    color: rgba(20, 43, 156, 0.91);
+    font-weight: bold;
 }

@@ -2,8 +2,7 @@ aside.asideclass,div#filter{
     display: inline-block;
 }
 aside.asideclass{
-    width:20%;
-    padding-left: 2%;
+    width:24%;
     vertical-align: top;
     padding-top: 2%;
     display:flow;
@@ -12,28 +11,110 @@ aside.asideclass>div{
     display:block;
 }
 #search{
+    border: solid 1px rgba(139, 0, 0, 0.79);
+    border-radius: 15px;
+    background-color: rgba(211, 211, 211, 0.4);
+    margin-bottom: 3%;
+    height: 40%;
+}
+#search legend{
+    font-size: 2.0em;
+    font-family: "Ink Free",sans-serif;
+    padding-left: 20%;
+}
+#search input[type="text"]{
+    height: 70%;
+    border-radius: 15px;
+    padding-right: 5%;
+}
+#search input[type="submit"]{
+    width: 30%;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    background-color: bisque;
+    font-family: "Comic Sans MS",sans-serif;
+}
+#hotcontent{
+    border: solid 1px rgba(139, 0, 0, 0.79);
+    border-radius: 15px;
+    margin-bottom: 3%;
+}
+#hotcontent h3{
+    background-color: rgba(127, 255, 212, 0.39);
+    font-family: "Ink Free",sans-serif;
+    font-size: 2.4rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+#hotcontent a{
+     font-size: 2rem;
+     color: rgba(219, 112, 147, 0.91);
+ }
+#hotcontent a:hover{
+    font-size: 2.1rem;
+    color: rgba(255, 66, 0, 0.64);
+}
+#hotcountry{
+    border: solid 1px rgba(139, 0, 0, 0.79);
+    border-radius: 15px;
+    margin-bottom: 3%;
+}
+#hotcountry h3{
+    background-color: rgba(127, 255, 212, 0.39);
+    font-family: "Ink Free",sans-serif;
+    font-size: 2.4rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+#hotcountry a{
+    font-size: 2rem;
+    color: rgba(219, 112, 147, 0.91);
+}
+#hotcountry a:hover{
+    font-size: 2.1rem;
+    color: rgba(255, 66, 0, 0.64);
 }
 #filter{
-    text-align:right;
-    padding-right:2%;
+    margin-left: 2%;
+    margin-right:2%;
     width: 70%;
     padding-top: 2%;
+}
+#filter legend{
+    font-family: "Ink Free",sans-serif;
+    font-size: 2.4rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+#filter fieldset{
+    border: solid 1px rgba(139, 0, 0, 0.79);
+    border-radius: 15px;
+    background-color: rgba(211, 211, 211, 0.34);
 }
 #filter section{
     border: black 1px solid;
     border-radius: 5px;
+}
+#filter select{
+    width: 25%;
+    font-size: 1.5rem;
+}
+#filter input[type="submit"]{
+    width: 15%;
+    background-color: bisque;
+    border-radius:10px;
+    font-size:1.5rem;
+    font-family: "Comic Sans MS",sans-serif;
 }
 #filter section table{
     width: 80%;
 }
 #filter section table td{
     width: 80%;
+    padding-left: 10px;
+    padding-right:10px;
 }
 #filter table img{
-    width: 200px;
-    height: 200px;
+    width: 195px;
+    height: 195px;
     overflow: hidden;
-    padding-right: 10px;
-    padding-left: 10px;
-    scroll-padding: 10px;
+    padding-top: 10px;
+
 }
