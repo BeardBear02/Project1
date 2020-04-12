@@ -1,0 +1,106 @@
+html{
+    background-image: url("../images/background/Paris.png");
+    background-size: 100%;
+    width: 100%;
+}
+body{
+    background-color: whitesmoke;
+    margin: auto;
+    width:80%;
+    text-align: center;
+    padding: 0;
+}
+main{
+    width: 90%;
+    height:90%;
+    margin:auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: aliceblue;
+    border:1rem lightpink;
+    border-radius: 20px;
+}
+header{
+    height:18%;
+    background-color: bisque;
+    font-weight: bold;
+    padding-bottom: 2%;
+
+}
+header h1{
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 5%;
+    font-size: 5rem;
+    font-family: "Comic Sans MS",sans-serif;
+}
+header h2{
+    text-align: right;
+    padding-top: 1%;
+    padding-right: 40%;
+    font-family: "Ink Free",sans-serif;
+    font-size: 3rem;
+
+}
+header ul{
+    font-size: 2.2rem;
+    font-family: Ebrima, sans-serif;
+}
+header ul img{
+    width: 30px;
+}
+header ul.ulheader{
+    text-align: left;
+    padding-left: 15%;
+}
+header ul.ulheader li{
+    display:inline-block;
+    padding-right: 5%;
+}
+header ul.ulheader li h3{
+
+    text-align: right;
+    padding-right: 5%;
+}
+header ul.ulaccount{
+    position: absolute;
+    padding-bottom: 10%;
+    padding-left: 5%;
+}
+header ul.ulaccount li{
+    display: none;
+}
+header ul.ulaccount:hover li{
+    text-align: left;
+    display: block;
+    width: 100%;
+    height: 30%;
+    font-size: 1.6vw;
+    padding-bottom: 4%;
+    margin-bottom: 1%;
+    border: solid #d12376;
+    background-color: rgba(245, 245, 245, 0.57);
+    vertical-align: bottom;
+}
+aside.asidebutton {
+    float:right;
+    bottom:12%;
+    right:12%;
+    position:fixed;
+    display:flow;
+}
+aside.asidebutton button{
+    background-color: rgba(255, 182, 193, 0.6);
+    border-radius: 50%;
+    width:40%;
+    display:block;
+}
+aside.asidebutton button img{
+    width:100%;
+}
+footer{
+    text-align: center;
+    height:15%;
+    background-color: black;
+    color: white;
+}

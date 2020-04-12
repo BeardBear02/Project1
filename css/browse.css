@@ -1,0 +1,39 @@
+aside.asideclass,div#filter{
+    display: inline-block;
+}
+aside.asideclass{
+    width:20%;
+    padding-left: 2%;
+    vertical-align: top;
+    padding-top: 2%;
+    display:flow;
+}
+aside.asideclass>div{
+    display:block;
+}
+#search{
+}
+#filter{
+    text-align:right;
+    padding-right:2%;
+    width: 70%;
+    padding-top: 2%;
+}
+#filter section{
+    border: black 1px solid;
+    border-radius: 5px;
+}
+#filter section table{
+    width: 80%;
+}
+#filter section table td{
+    width: 80%;
+}
+#filter table img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
+    scroll-padding: 10px;
+}

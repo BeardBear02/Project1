@@ -4,33 +4,39 @@
     <meta charset="UTF-8">
     <title>Photo Life</title>
     <link href ="../css/reset.css" rel="stylesheet">
+    <link href ="../css/homepage.css" rel="stylesheet">
+    <link href ="../css/browse.css" rel="stylesheet">
+    <script type="text/javascript" src="../JavaScript/Browser.js"></script>
 </head>
 <body>
 <header id="header">
     <h1>Photo Life</h1>
     <h2>Share your life here!</h2>
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="browse.html">Browse</a></li>
-        <li><a href="search.html">Search</a></li>
+    <ul class="ulheader">
+        <li><a href="home.html"><img src="../images/icons/home.png">Home</a></li>
+        <li><a href="browse.html"><img src="../images/icons/browse2.png">Browse</a></li>
+        <li><a href="search.html"><img src="../images/icons/search.png">Search</a></li>
         <li>
-            <h3>My Account</h3>
-            <ul>
-                <li><a href="photo.html">My Photos</a></li>
-                <li><a href="favor.html">My Favors</a></li>
-                <li><a href="upload.html">Upload</a></li>
-                <li><a href="../index.html">Login</a></li>
+            <ul class="ulaccount">
+                <h3>My Account</h3>
+                <li><a href="photo.html"><img src="../images/icons/photo.png">My Photos</a></li>
+                <li><a href="favor.html"><img src="../images/icons/favor.png">My Favors</a></li>
+                <li><a href="upload.html"><img src="../images/icons/upload.png">Upload</a></li>
+                <li><a href="../index.html"><img src="../images/icons/login.png">Login</a></li>
             </ul>
         </li>
     </ul>
+
 </header>
 <main>
-    <aside>
-        <div id="FilterSearch">
-            <form>
-                <h2>Filter</h2>
-                <input type="text" name="filter"><input type="submit" name="submit" value="Filter" onclick="alert('filtered')">
-            </form>
+    <aside class="asideclass">
+        <div id="search">
+            <fieldset>
+                <form>
+                    <legend>Filter</legend>
+                    <input type="text" name="filter"><input type="submit" name="submit" value="Filter" onclick="alert('filtered')">
+                </form>
+            </fieldset>
         </div>
         <div id="HotContent">
             <h2>Hot Content</h2>
@@ -53,7 +59,7 @@
             </ul>
         </div>
     </aside>
-    <div>
+    <div id="filter">
         <form>
             <fieldset>
                 <legend>filter</legend>
@@ -80,33 +86,40 @@
 
             </fieldset>
         </form>
-        <table>
-            <tr>
-                <td><a href="info.html"><img src="../images/normal/medium/222222.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/222223.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/5855774224.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/5855752464.jpg"></a></td>
-            </tr>
-            <tr>
-                <td><a href="info.html"><img src="../images/normal/medium/5855729828.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/5855221959.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/5855213165.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/5855209453.jpg"></a></td>
-            </tr>
-            <tr>
-                <td><a href="info.html"><img src="../images/normal/medium/5855191275.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/5857298322.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/6114850721.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/6114881215.jpg"></a></td>
-            </tr>
-            <tr>
-                <td><a href="info.html"><img src="../images/normal/medium/6114960821.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/6115548152.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/6115603234.jpg"></a></td>
-                <td><a href="info.html"><img src="../images/normal/medium/6119127716.jpg"></a></td>
-            </tr>
-        </table>
+        <section>
+            <table>
+                <tr>
+                    <td><a href="info.html"><img src="../images/normal/medium/222222.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/222223.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/5855774224.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/5855752464.jpg"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="info.html"><img src="../images/normal/medium/5855729828.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/5855221959.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/5855213165.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/5855209453.jpg"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="info.html"><img src="../images/normal/medium/5855191275.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/5857298322.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/6114850721.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/6114881215.jpg"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="info.html"><img src="../images/normal/medium/6114960821.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/6115548152.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/6115603234.jpg"></a></td>
+                    <td><a href="info.html"><img src="../images/normal/medium/6119127716.jpg"></a></td>
+                </tr>
+            </table>
+        </section>
+
     </div>
+    <aside class="asidebutton">
+        <button class="toTop"><a href="#header"><img src="../images/icons/up.png"></a></button>
+        <button class="renew"><img src="../images/icons/renew.png" onclick="alert('Renew Done')"></button>
+    </aside>
 </main>
 <footer>
     <div>BeardBear02 版权所有,保留一切权利</div>

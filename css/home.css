@@ -1,0 +1,25 @@
+main figure.mainpic img{
+    width: 80%;
+    padding-top: 2%;
+}
+main section.homepic table{
+    width: 80%;
+    margin: auto;
+
+}
+main section.homepic figure{
+    width: 90%;
+    margin: auto;
+    border: bisque 1px solid;
+}
+main section.homepic img{
+    width:100px;
+    height: 100px;
+    overflow:hidden;
+}
+main section.homepic figcaption{
+    overflow:hidden;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+}
