@@ -7,7 +7,7 @@
 ## 地址
 ----
 Github地址：https://github.com/BeardBear02/Project1<br>
-Github Pages地址：<br>
+Github Pages地址：https://beardbear02.github.io/Project1/<br>
 ## 项目完成情况
 ----
 ###基础项
